@@ -1,1 +1,2 @@
-# genesis2
+# genesis
+genesis v2
