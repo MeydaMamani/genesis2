@@ -1,0 +1,198 @@
+body {
+  background: #f4f4f4;
+
+  justify-content: center; /* Mejor compatibilidad */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Asegura que ocupe toda la pantalla */
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.Mappasco {
+  fill: #fdfd96; /* Verde */
+  stroke: #cbcd69; /* Borde verde oscuro */
+  stroke-width: 1;
+
+}
+.Mapoxa {
+  fill: #77dd77; /* Verde */
+  stroke: #2d8f2f; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapdac {
+  fill: #FF6961; /* Verde */
+  stroke: #840007; /* Borde verde oscuro */
+  stroke-width: 1;
+  }
+/* colores de lo mapas de DAC*/
+.Mapgoallar {
+  fill: #ffff51; /* Rojo */
+  stroke: #c0c039; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapstapuc {
+  fill: #f5d683; /* Rojo */
+  stroke: #a38a3b; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+
+.Mapchacayan {
+  fill: #acee91; /* Rojo */
+  stroke: #5f9f48; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapsatusi {
+  fill: #e15de7;
+  stroke: #8e2098;
+  stroke-width: 1;
+}
+.Mapvilcabamba {
+  fill: #c8ad8d; /* Rojo */
+  stroke: #5e492d; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mappaucar {
+  fill: #fef6cd; /* Rojo */
+  stroke: #eee6bd; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.MapsSpillao {
+  fill: #e665a2; /* Rojo */
+  stroke: #93235a; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapsyanahuanca {
+  fill: #97f8d8; /* Rojo */
+  stroke: #47a88c; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+
+/* colores de lo mapas de OXA*/
+
+.MapHuancabanba {
+  fill: #407a8d ; /* Rojo */
+  stroke: #103747; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapchontabamba {
+  fill: #4af7cd; /* Rojo */
+  stroke: #008865; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapoxapampa {
+  fill: #ffff51; /* Rojo */
+  stroke: #a9b01d; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapspozuzo {
+  fill: #20c67a; /* Rojo */
+  stroke: #005b1b; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapspalcazu {
+  fill: #cfa270; /* Rojo */
+  stroke: #5d3116; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapsvillarica {
+  fill: #fabfb7; /* Rojo */
+  stroke: #c9918a; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapsconstitucion {
+  fill: #ededaf; /* Rojo */
+  stroke: #f0f0ba; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+.Mapspuertobermuedez {
+  fill: #bb9c60; /* Rojo */
+  stroke: #8c7037; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+/* colores para los mapas de la provincia de Pasco */
+.MapHuayllay {
+  fill: #a3f8a3; /* Rojo */
+  stroke: #55a85a; /* Borde rojo oscuro */
+  stroke-width: 1;
+}
+
+.Mapsimonbolivar {
+  fill: #948ce3; /* Azul */
+  stroke: #282d77; /* Borde azul oscuro */
+  stroke-width: 1;
+}
+
+.Mapsvicco {
+  fill: #bd724b; /* Verde */
+  stroke: #4f1300; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+
+.Maptinyahuarco {
+  fill: #fdcae1; /* Verde */
+  stroke: #8f6277; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapchaupimarca {
+  fill: #c7f7f7; /* Verde */
+  stroke: #5d8a8a; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+
+.Mapsyarusyacan {
+  fill: #cfffca; /* Verde */
+  stroke: #659162; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+
+.Mapyanacancha {
+  fill: #fdfd96; /* Verde */
+  stroke: #eced87; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+
+.Mappallanchacra {
+  fill: #d8af97; /* Verde */
+  stroke: #6c4b36; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Maphuariaca {
+  fill: #fffec2; /* Verde */
+  stroke: #efeeb2; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapticlacayan {
+  fill: #f0a2f6; /* Verde */
+  stroke: #813b89; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapsninacaca {
+  fill: #ba9df4; /* Verde */
+  stroke: #503a87; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapspaucartambo {
+  fill: #ff9688; /* Verde */
+  stroke: #ab4c43; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+.Mapshuachon {
+  fill: #acf7c3; /* Verde */
+  stroke: #60a778; /* Borde verde oscuro */
+  stroke-width: 1;
+}
+
+
+.container path:hover { /* Selector corregido */
+  fill: #dededf;
+  stroke: #5e5f61;
+  stroke-width: 1px;
+}
+
+
+
